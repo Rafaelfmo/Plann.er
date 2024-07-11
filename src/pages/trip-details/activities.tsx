@@ -20,8 +20,18 @@ export function Activities() {
       <div className="space-y-2.5">
         <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
           <CircleCheck className="size-5 text-lime-300"></CircleCheck>
-          <span className="text-zinc-100">Academia em grupo</span>
+          <span className="text-zinc-100">Passeio pela orla</span>
           <span className="text-zinc-400 text-sm ml-auto">08:00h</span>
+        </div>
+        <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
+          <CircleCheck className="size-5 text-lime-300"></CircleCheck>
+          <span className="text-zinc-100">Tomar banho na praia</span>
+          <span className="text-zinc-400 text-sm ml-auto">10:00h</span>
+        </div>
+        <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
+          <CircleCheck className="size-5 text-lime-300"></CircleCheck>
+          <span className="text-zinc-100">Almoço</span>
+          <span className="text-zinc-400 text-sm ml-auto">12:00h</span>
         </div>
       </div>
 
@@ -34,8 +44,13 @@ export function Activities() {
       <div className="space-y-2.5">
         <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
           <CircleCheck className="size-5 text-lime-300"></CircleCheck>
-          <span className="text-zinc-100">Passeio pela orla</span>
-          <span className="text-zinc-400 text-sm ml-auto">06:00h</span>
+          <span className="text-zinc-100">Passeio no park</span>
+          <span className="text-zinc-400 text-sm ml-auto">08:00h</span>
+        </div>
+        <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
+          <CircleCheck className="size-5 text-lime-300"></CircleCheck>
+          <span className="text-zinc-100">Conhecer o centro da cidade</span>
+          <span className="text-zinc-400 text-sm ml-auto">10:00h</span>
         </div>
       </div>
     </div>
